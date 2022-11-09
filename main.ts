@@ -313,6 +313,9 @@ basic.forever(function () {
         }
     }
     if (poop == 0) {
+        if (randint(0, 1) == 1) {
+            poop = 5
+        }
         if (randint(0, 1) == 0) {
             basic.showLeds(`
                 . # . # .
